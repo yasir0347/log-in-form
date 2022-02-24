@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(./images/hello\ 4.png) center center fixed;
+    background-size: cover;
+}
+
+.main1{
+    color: whitesmoke;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+.main1 h1{
+    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Poppins', sans-serif;
+    width: 60%;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom:5px solid #f5d442;
+    margin-bottom: 14px;
+    padding: 13px 0;
+}
+
+.main2{
+    width: 100%;
+    border-bottom: 2px solid #f5d442;
+    margin: 22px 0;
+}
+
+.main2 input{
+    background: none;
+    width: 100%;
+    padding: 5px 10;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+}
+
+.main2 i{
+width: 25px;
+float: left;
+text-align: center;
+}
+
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid #f5d442;
+    border-radius: 10px;
+    background:none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.btn:hover{
+    color: #f5d442;
+    background: whitesmoke;
+    opacity: 0.5;
+}
